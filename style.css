@@ -1,0 +1,67 @@
+.Body {
+	margin-top:0px;
+    font-size: 18px;
+    font-family:'Times New Roman';
+    color: #2C2C2C;
+    line-height: 1.5em;
+    background-color: #707395;
+}
+.Logo {
+    width: 87%;
+    height: 115px;
+    background-color: #22274D;
+    align-items: center;
+    text-align: left;
+    margin-left: 7%;
+
+    }
+.Contact-info {
+	padding: 0px;
+    float:right;
+    margin-right:6%;
+    width: 20%;
+
+    }
+.Contact-info div{
+	margin-bottom: 20px;
+	background: #999ECC;
+	padding: 5px;
+}
+.Contact-info img {
+    margin :5%;
+    width: 90%;
+}
+.Contacts{
+	padding: 10px;
+}
+.Contacts a {
+    color: blue;
+    font-size: 1em;
+    text-decoration: none;
+}
+.Contacts span {
+    font-weight: bold;
+    font-size: 1em;
+}
+.Contacts h3 {
+    margin-top: 10px;
+}
+.Biography {
+	padding: 20px;
+	background-color: #FFFFFF;
+    float: left;
+    width: 64%;
+    margin-left: 7%;
+    }
+::marker {
+    unicode-bidi: isolate;
+    font-variant-numeric: tabular-nums;
+    text-transform: none;
+    text-indent: 0px !important;
+    text-align: start !important;
+    text-align-last: start !important;
+}
+ul li::marker {
+    color: #ffb830;
+    font-size: 1em;
+}
